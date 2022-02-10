@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Color Flipper || Simple
-  </title>
+  <title>Color Flipper || Simple</title>
 </head>
 
 <body>
   <header>
     <div class="app-name"> Color Flipper</div>
-    <div class="color-simple">Simple</div>
-    <div class="color-hex">Hex</div>
+    <ul class="nav-links">
+      <li><a class="color-simple" href="">Simple</a></li>
+      <li><a class="color-hex" href="">Hex</a></li>
+    </ul>
   </header>
-  <div class="container">
-    <h1 class="color-name">Background Color : </h1>
-    <button id="click-me" onclick=changeColor()>CLICK ME</button>
-  </div>
-  <script>
-    function changeColor() {
-      alert("hello");
-    };
+  <main>
+    <div class="container">
+      <h1 class="color-name">Background Color :<span class="color-code"></span></h1>
+      <button id="click-me">CLICK ME</button>
+    </div>
+  </main>
+  <script src="app.js">
   </script>
 </body>
 

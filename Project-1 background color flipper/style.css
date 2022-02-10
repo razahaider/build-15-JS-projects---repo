@@ -9,6 +9,7 @@
   text-decoration: none;
   text-transform: capitalize;
   letter-spacing: 0.2rem;
+  list-style: none;
 }
 
 header{ 
@@ -25,7 +26,11 @@ header{
   font-weight: bolder;
   padding: 0px 100px 0px 450px;
 }
+.nav-links{
+display:flex;
+}
 .color-simple{
+  color: black;
 padding: 0px 5px;
 padding-left: 50px;
 }
@@ -36,6 +41,7 @@ padding-left: 50px;
 
 }
 .color-hex{
+  color: black;
   padding: 0px 5px;
 }
 .container{
@@ -61,6 +67,7 @@ h1{
   -o-border-radius:5px ;
 }
 #click-me{
+  background-color: transparent;
   border: 2px solid ;
   margin:15px;
   padding:10px 15px;
