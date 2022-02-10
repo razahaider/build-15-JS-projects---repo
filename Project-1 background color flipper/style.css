@@ -14,27 +14,43 @@
 header{ 
   z-index: 999;
   display: flex;
-  justify-content: space-between;
-  padding:10px 500px;
+  padding:10px 100px;
   background-color: white;
   box-shadow: 0.2px 0.2px 20px rgb(39, 35, 34);
+}
+
+.app-name{
+  color: rgb(39, 160, 160);
+  font-size: large;
+  font-weight: bolder;
+  padding: 0px 100px 0px 450px;
+}
+.color-simple{
+padding: 0px 5px;
+padding-left: 50px;
+}
+
+.color-hex:hover, .color-simple:hover{
+  cursor: pointer;
+  color: rgb(39, 160, 160);;
+
+}
+.color-hex{
+  padding: 0px 5px;
 }
 .container{
   background-color: rgba(0, 0, 0, 0.24);
   width: 100%;
+  
   height: 100vh;
   display:flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.app-name{
-  color: rgb(39, 160, 160);
-  font-size: large;
-  font-weight: bolder;
-}
 
 h1{
+  min-height: 10px;
   background-color: black;
   color: white;
   padding: 10px 10px;
@@ -54,4 +70,10 @@ h1{
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+#click-me:hover,active{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
 }
