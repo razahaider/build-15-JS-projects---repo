@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  list-style: none;
+}
+
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.counter-name{
+  font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+.counter{
+  font-size: 70px;
+  font-weight: lighter;
+}
+.action-btns{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.btn{
+  cursor: pointer;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 5px;
+  margin:10px;
+  background-color: transparent;
+  border:2px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
