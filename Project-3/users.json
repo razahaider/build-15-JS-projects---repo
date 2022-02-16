@@ -1,0 +1,32 @@
+[
+{
+  "id": 1,
+  "img":"img/pic-1.png",
+  "author":"Anna",
+  "designation":"Web developer",
+  "reviews":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+},
+{
+  "id": 2,
+  "img":"img/pic-2.png",
+  "author":"Browney",
+  "designation":"Scientest",
+  "reviews":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+},
+{
+  "id": 3,
+  "img":"img/pic-3.png",
+  "author":"George",
+  "designation":"Web developer",
+  "reviews":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+},
+{
+  "id": 4,
+  "img":"img/pic-4.png",
+  "author":"Zoey",
+  "designation":"Web developer",
+  "reviews":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+}
+
+]
+

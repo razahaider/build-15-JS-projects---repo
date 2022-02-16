@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+  text-align: center;
+  transition: 0.2s ;
+  -webkit-transition: 0.2s ;
+  -moz-transition: 0.2s ;
+  -ms-transition: 0.2s ;
+  -o-transition: 0.2s ;
+}
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(235, 233, 233);
+}
+.heading{
+  margin-top:100px;
+  letter-spacing: 0.2rem;
+}
+.underline{
+  background-color:rgb(71, 173, 187);
+  height:0.25rem;
+  width:4.5rem;
+  margin:10px;
+}
+.container{
+  width: 500px;
+  background-color: white;
+  margin:50px;
+  padding:10px 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.219);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.img-container{
+  position: relative;
+  margin:20px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 5px -2px 1px rgb(71, 173, 187);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.author{
+  font-weight: bolder;
+  letter-spacing: 0.25rem;
+
+}
+.designation{
+text-transform: uppercase;
+color: rgb(43, 134, 134);
+font-size: 12px;
+margin:5px;
+}
+
+.reviews{
+ color:rgba(79, 79, 92, 0.795);
+ font-size: 12px;
+}
+
+.toggle{
+  color:rgb(71, 173, 187);
+  margin:10px;
+}
+
+.toggle .fa-solid{
+  cursor:pointer;
+  font-size: 20px;
+  width:20px;
+}
+.toggle .fa-solid:hover{
+  color:rgb(48, 108, 116);
+}
+
+.random{
+  font-size: 10px;
+  background-color: transparent;
+  color: rgb(48, 108, 116);
+  border:1px solid rgb(48, 108, 116);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding:2px 5px;
+}
+
+.random:hover{
+  cursor:pointer;
+  padding:2px 5px;
+  border:1px solid rgb(65, 143, 143);
+  background-color: rgb(65, 143, 143);
+  color:rgb(15, 19, 19);
+}
+
+.fa-quote-right{
+  position:absolute;
+  left: -3%;
+  top: 10%;
+  background-color: rgb(71, 173, 187);
+  color: white;
+  padding:8px 0px;
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
