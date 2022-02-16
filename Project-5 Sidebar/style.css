@@ -41,9 +41,13 @@ background-color: rgb(234, 245, 241);
   text-shadow: 0px 1px  black;
   cursor: pointer;
 }
-.close-btn:hover{
+.close-btn i:hover{
   color: rgb(209, 122, 122);
- 
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
 }
 header{
   display:flex;
