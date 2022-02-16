@@ -24,6 +24,7 @@ align-items: center;
 justify-content: space-between;
 padding: 15px;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+z-index:999;
 }
 
 .logo {
@@ -79,6 +80,7 @@ color: rgb(54, 129, 126);
 
 @media(max-width:768px){
   header{
+    z-index: 999;
     box-shadow: none;
   }
   .social-media{
@@ -91,6 +93,7 @@ color: rgb(54, 129, 126);
   text-align: left;
  letter-spacing: 5px;
  padding: 20px 1000px 20px 0px;
+ z-index:-2;
 }
 
 .nav-menus{
@@ -99,11 +102,16 @@ color: rgb(54, 129, 126);
   top: 60px;
   background-color:white;
   box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.199);
-  width:1100px; 
+  width:1100px;
   display:flex;
   align-items: center;
   flex-direction: column;
-  display:none;
+  /* display:none; */
+  transform: translateY(-1000px);
+  -webkit-transform: translateY(-1000px);
+  -moz-transform: translateY(-1000px);
+  -ms-transform: translateY(-1000px);
+  -o-transform: translateY(-1000px);
 }
 
 .nav-menus li:nth-child(3){
@@ -116,5 +124,11 @@ color: rgb(54, 129, 126);
 }
 
 .show-menu{
-  display:flex;
+  /* display:flex; */
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  z-index:-1;
 }
