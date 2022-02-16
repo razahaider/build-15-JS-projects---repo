@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  list-style: none;
+  text-align: center;
+  transition: 0.5s ;
+  -webkit-transition: 0.5s ;
+  -moz-transition: 0.5s ;
+  -ms-transition: 0.5s ;
+  -o-transition: 0.5s ;
+}
+a{
+ color: inherit;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+}
+
+.logo {
+  font-size: 30px;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.541);
+}
+.logo span{
+  color: rgb(74, 172, 167);
+}
+nav{
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.nav-menus{
+display:flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+}
+
+.social-media{
+display:flex;
+align-items: center;
+color: rgb(54, 129, 126);
+}
+
+.nav-menus li{
+  text-align: left;
+  margin: 0px 10px;
+  letter-spacing: 5px;
+}
+
+.social-media li{
+  margin: 0px 5px;
+}
+.toggle-menu{
+  display:none;
+}
+.toggle-menu i{
+  font-size: 30px;
+  color: rgb(54, 129, 126);
+}
+/* 
+.social-media i:hover, i:active{
+  transform: translate(0, -20px);
+  -webkit-transform: translate(0, -20px);
+  -moz-transform: translate(0, -20px);
+  -ms-transform: translate(0, -20px);
+  -o-transform: translate(0, -20px);
+} */
+
+@media(max-width:768px){
+  header{
+    box-shadow: none;
+  }
+  .social-media{
+    display:none;
+  }
+.toggle-menu{
+  display:flex;
+}
+.nav-menus li{
+  text-align: left;
+ letter-spacing: 5px;
+ padding: 20px 1000px 20px 0px;
+}
+
+.nav-menus{
+  position: absolute;
+  left:2px;
+  top: 60px;
+  background-color:white;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.199);
+  width:1100px; 
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  display:none;
+}
+
+.nav-menus li:nth-child(3){
+  padding-left:30px;
+}
+.nav-menus li:nth-child(4){
+  padding-left:20px;
+}
+
+}
+
+.show-menu{
+  display:flex;
+}
